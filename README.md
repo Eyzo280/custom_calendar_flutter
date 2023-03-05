@@ -1,6 +1,9 @@
 # Custom Calendar
 
-
+<div style='width: 100%'>
+    <img src="https://user-images.githubusercontent.com/48450982/222988412-30ea55a8-8d41-47b2-a106-bd52987217aa.gif" width="49%"/>
+    <img src="https://user-images.githubusercontent.com/48450982/222988423-943e5516-7dea-45ff-b3d3-2adeff549889.gif" width="49%"/>
+</div>
 
 ## Features
 
@@ -17,7 +20,7 @@
 CalendarModule(
     firstDateTimeInCalendar: DateTime.now(),
     lastDateTimeInCalendar: DateTime.now().add(const Duration(days: 90)),
-    listAllAvailableDays: [
+    listAllAvailableDaysToEdit: [
         DateTime.now().add(const Duration(days: 3)),
         DateTime.now().add(const Duration(days: 4)),
         DateTime.now().add(const Duration(days: 5)),
